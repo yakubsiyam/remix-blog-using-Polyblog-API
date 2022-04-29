@@ -1,4 +1,4 @@
-import { Outlet, LiveReload, Link, Links, Meta } from 'remix';
+import { Outlet, LiveReload, Link, Links, Meta } from '@remix-run/react';
 
 export const links = () => [
   // Bootstrap CSS CDN

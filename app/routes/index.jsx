@@ -1,4 +1,4 @@
-import { redirect } from 'remix';
+import { redirect } from '@remix-run/server-runtime';
 
 export function loader({ request }) {
   let languageHeader = request.headers.get('accept-language');

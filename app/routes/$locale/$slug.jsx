@@ -1,5 +1,5 @@
 import { getArticles } from '@polyblog/polyblog-js-client';
-import { useLoaderData } from 'remix';
+import { useLoaderData } from '@remix-run/react';
 
 export const loader = async ({ params }) => {
   const { locale, slug } = params;
